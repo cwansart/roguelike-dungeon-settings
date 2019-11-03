@@ -1,0 +1,97 @@
+{
+	"name" : "demo:loot4",
+	"loot_rules" : [
+		{
+			"level" : 4,
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"type" : "tool", "level" : 4}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 4,
+			"type" : "WEAPONS",
+			"loot" : [
+				{"data" : {"type" : "weapon", "level" : 4}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 4,
+			"type" : "ARMOUR",
+			"loot" : [
+				{"data" : {"type" : "armour", "level" : 4}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 4,
+			"type" : "ORE",
+			"loot" : [
+				{"data" : {"name" : "minecraft:iron_ingot"}, "weight" : 7},
+				{"data" : {"name" : "minecraft:gold_ingot"}, "weight" : 3},
+				{"data" : {"name" : "minecraft:diamond", "min" : 3, "max" : 8},"weight" : 5},
+				{"data" : {"name" : "minecraft:emerald", "min" : 2, "max" : 7},"weight" : 4},
+				{"data" : {"name" : "minecraft:coal_block", "min" : 3, "max" : 7}, "weight" : 6},
+				{"data" : {"name" : "minecraft:iron_block", "min" :  3, "max" :  5}, "weight" : 8},
+				{"data" : {"name" : "minecraft:gold_block", "min" :  2, "max" :  5}, "weight" : 7},
+				{"data" : {"name" : "minecraft:emerald_block", "min" : 1, "max" :  3}, "weight" : 8},
+				{"data" : {"name" : "minecraft:diamond_block", "min" :  1, "max" :  3}, "weight" : 9}
+			],
+			"each" : true,
+			"quantity" : 8
+		},
+		{
+			"level" : 4,
+			"loot" : [
+				{"data" : {"type" : "enchanted_book", "ench" : 30}, "weight" : 10}
+			],
+			"each" : false,
+			"quantity" : 6
+		},
+		{
+			"level" : 4,
+			"loot" : [
+				{"data" : {"type" : "specialty", "level" : 4}, "weight" : 1},
+				{"data" : {"name" : "minecraft:ender_pearl", "min" :  5, "max" :  10}, "weight" : 10},
+				{"data" : {"name" : "minecraft:ghast_tear", "min" : 3, "max" : 10}, "weight" : 5},
+				{"data" : {"name" : "minecraft:beacon"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:obsidian", "min" :  5, "max" :  15}, "weight" : 4},
+        {"data" : {"name" : "minecraft:skull", "meta": 1, "min" :  1, "max" : 5}, "weight" : 3},
+				{"data" : {"name" : "minecraft:nether_star", "min" : 1, "max" : 3}, "weight" : 2},
+        {"data" : {"name" : "actuallyadditions:block_crystal_empowered", "min" :  1, "max" : 3}, "weight" : 10},
+        {"data" : {"name" : "actuallyadditions:block_crystal_empowered", "meta": 1, "min" :  1, "max" : 3}, "weight" : 10},
+				{"data" : {"name" : "actuallyadditions:block_crystal_empowered", "meta": 2, "min" :  1, "max" : 3}, "weight" : 10},
+				{"data" : {"name" : "actuallyadditions:block_crystal_empowered", "meta": 3, "min" :  1, "max" : 3}, "weight" : 10},
+				{"data" : {"name" : "actuallyadditions:block_crystal_empowered", "meta": 4, "min" :  1, "max" : 3}, "weight" : 10},
+				{"data" : {"name" : "actuallyadditions:block_crystal_empowered", "meta": 5, "min" :  1, "max" : 3}, "weight" : 10},
+				{"data" : {"name" : "draconicevolution:draconium_ingot", "min" :  2, "max" : 5}, "weight" : 10},
+				{"data" : {"name" : "draconicevolution:draconic_ingot", "min" :  1, "max" : 3}, "weight" : 10},
+				{"data" : {"name" : "ic2:resource", "meta": 12, "min" :  3, "max" : 7}, "weight" : 10},
+				{"data" : {"name" : "ic2:resource", "meta": 13, "min" :  1, "max" : 5}, "weight" : 10},
+				{"data" : {"name" : "bloodmagic:slate", "min" :  3, "max" : 7}, "weight" : 10},
+				{"data" : {"name" : "bloodmagic:slate", "meta": 1, "min" :  2, "max" : 6}, "weight" : 10},
+				{"data" : {"name" : "bloodmagic:blood_shard", "min" :  3, "max" : 8}, "weight" : 10},
+				{"data" : {"name" : "environmentaltech:litherite_crystal", "min" :  3, "max" : 5}, "weight" : 10},
+				{"data" : {"name" : "mekanism:reinforcedalloy", "min" :  1, "max" : 3}, "weight" : 10},
+				{"data" : {"name" : "mekanism:atomicalloy", "min" :  1, "max" : 3}, "weight" : 10},
+				{"data" : {"name" : "bigreactors:ingotmetals", "meta": 3, "min" :  2, "max" : 5}, "weight" : 10},
+				{"data" : {"name" : "bigreactors:ingotmetals", "meta": 4, "min" :  1, "max" : 3}, "weight" : 10},
+				{"data" : {"name" : "mysticalagriculture:crafting", "meta": 5, "min" :  1, "max" : 7}, "weight" : 10},
+				{"data" : {"name" : "botania:manaresource", "meta": 4, "min" :  1, "max" : 3}, "weight" : 10},
+				{"data" : {"name" : "thermalfoundation:material", "meta": 167, "min" :  1, "max" : 3}, "weight" : 10},
+				{"data" : {"name" : "nuclearcraft:part", "meta": 3, "min" :  1, "max" : 4}, "weight" : 10},
+				{"data" : {"name" : "thaumcraft:loot_bag", "meta": 2, "min" :  1, "max" : 5}, "weight" : 10},
+				{"data" : {"name" : "twilightforest:fiery_ingot", "min" :  1, "max" : 6}, "weight" : 10},
+				{"data" : {"name" : "enderio:item_alloy_ingot", "meta": 2, "min" :  1, "max" : 3}, "weight" : 10},
+				{"data" : {"name" : "redstonearsenal:material", "meta": 32, "min" :  1, "max" : 3}, "weight" : 10}
+			],
+			"each" : false,
+			"quantity" : 6
+		}
+	]
+}

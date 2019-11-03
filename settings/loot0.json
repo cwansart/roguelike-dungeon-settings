@@ -1,0 +1,62 @@
+{
+	"name" : "demo:loot0",
+	"loot_rules" : [
+		{
+			"level" : 0,
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"type" : "tool", "level" : 0}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 0,
+			"type" : "WEAPONS",
+			"loot" : [
+				{"data" : {"type" : "weapon", "level" : 0}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 0,
+			"type" : "ARMOUR",
+			"loot" : [
+				{"data" : {"type" : "armour", "level" : 0}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 0,
+			"type" : "ORE",
+			"loot" : [
+				{"data" : {"name" : "minecraft:iron_ingot"}, "weight" : 1},
+				{"data" : {"name" : "minecraft:iron_nugget", "min" : 1, "max" : 4}, "weight" : 2},
+				{"data" : {"name" : "minecraft:coal", "min" : 3, "max" : 7}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 3
+		},
+		{
+			"level" : 0,
+			"loot" : [
+				{"data" : {"type" : "enchanted_book", "ench" : 1}, "weight" : 1}
+			],
+			"each" : false,
+			"quantity" : 4
+		},
+		{
+			"level" : 0,
+			"loot" : [
+				{"data" : {"type" : "specialty", "level" : 0}, "weight" : 1},
+				{"data" : {"name" : "minecraft:slime_ball", "min" : 3, "max" : 5}, "weight" : 4},
+				{"data" : {"name" : "minecraft:ender_pearl"}, "weight" : 3},
+				{"data" : {"name" : "minecraft:dye", "min" : 3, "max" : 7}, "weight" : 6}
+			],
+			"each" : false,
+			"quantity" : 2
+		}
+	]
+}

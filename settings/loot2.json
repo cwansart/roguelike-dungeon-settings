@@ -1,0 +1,94 @@
+{
+	"name" : "demo:loot2",
+	"loot_rules" : [
+		{
+			"level" : 2,
+			"type" : "TOOLS",
+			"loot" : [
+				{"data" : {"type" : "tool", "level" : 2}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 2,
+			"type" : "WEAPONS",
+			"loot" : [
+				{"data" : {"type" : "weapon", "level" : 2}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 2,
+			"type" : "ARMOUR",
+			"loot" : [
+				{"data" : {"type" : "armour", "level" : 2}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : 2,
+			"type" : "ORE",
+			"loot" : [
+				{"data" : {"name" : "minecraft:iron_ingot"}, "weight" : 5},
+				{"data" : {"name" : "minecraft:diamond", "min" : 1, "max" : 3},"weight" : 4},
+				{"data" : {"name" : "minecraft:coal", "min" : 3, "max" : 7}, "weight" : 1},
+				{"data" : {"name" : "minecraft:emerald"},"weight" : 2}
+			],
+			"each" : true,
+			"quantity" : 5
+		},
+		{
+			"level" : 2,
+			"loot" : [
+				{"data" : {"type" : "enchanted_book", "ench" : 15}, "weight" : 3}
+			],
+			"each" : false,
+			"quantity" : 8
+		},
+		{
+			"level" : 2,
+			"loot" : [
+				{"data" : {"type" : "specialty", "level" : 2}, "weight" : 1},
+				{"data" : {"name" : "minecraft:slime_ball", "min" : 1, "max" : 5}, "weight" : 3},
+				{"data" : {"name" : "minecraft:ender_pearl", "min" :  5, "max" :  10}, "weight" : 8},
+				{"data" : {"name" : "minecraft:dye", "min" : 1, "max" : 3}, "weight" : 3},
+				{"data" : {"name" : "minecraft:rabbit_foot"}, "weight" : 5},
+				{"data" : {"name" : "minecraft:blaze_powder"}, "weight" : 7},
+				{"data" : {"name" : "minecraft:blaze_rod"}, "weight" : 4},
+				{"data" : {"name" : "minecraft:magma_cream"}, "weight" : 5},
+				{"data" : {"name" : "minecraft:ghast_tear", "min" : 3, "max" : 5}, "weight" : 4},
+				{"data" : {"name" : "minecraft:ender_eye", "min" : 1, "max" : 5}, "weight" : 3},
+				{"data" : {"name" : "actuallyadditions:item_crystal", "min" :  1, "max" : 3}, "weight" : 5},
+				{"data" : {"name" : "actuallyadditions:item_crystal", "meta": 1, "min" :  3, "max" : 5}, "weight" : 6},
+				{"data" : {"name" : "actuallyadditions:item_crystal", "meta": 2, "min" :  3, "max" : 5}, "weight" : 6},
+				{"data" : {"name" : "actuallyadditions:item_crystal", "meta": 3, "min" :  3, "max" : 5}, "weight" : 6},
+				{"data" : {"name" : "actuallyadditions:item_crystal", "meta": 4, "min" :  3, "max" : 5}, "weight" : 6},
+				{"data" : {"name" : "actuallyadditions:item_crystal", "meta": 5, "min" :  3, "max" : 5}, "weight" : 6},
+				{"data" : {"name" : "appliedenergistics2:material", "meta": 7, "min" :  1, "max" : 5}, "weight" : 4},
+				{"data" : {"name" : "botania:manaresource", "min" :  3, "max" : 5}, "weight" : 6},
+				{"data" : {"name" : "botania:manaresource", "meta": 1, "min" :  1, "max" : 3}, "weight" : 4},
+				{"data" : {"name" : "botania:manaresource", "meta": 2, "min" :  1, "max" : 4}, "weight" : 5},
+				{"data" : {"name" : "nuclearcraft:part", "meta": 1, "min" :  3, "max" : 5}, "weight" : 3},
+				{"data" : {"name" : "nuclearcraft:californium", "meta": 4, "min" :  3, "max" : 5}, "weight" : 5},
+				{"data" : {"name" : "nuclearcraft:plutonium", "min" :  3, "max" : 5}, "weight" : 5},
+				{"data" : {"name" : "nuclearcraft:americium", "min" :  3, "max" : 5}, "weight" : 5},
+				{"data" : {"name" : "nuclearcraft:uranium", "meta": 8, "min" :  3, "max" : 5}, "weight" : 5},
+				{"data" : {"name" : "thaumcraft:loot_bag", "meta": 1, "min" :  2, "max" : 6}, "weight" : 4},
+				{"data" : {"name" : "thaumcraft:ingot", "meta": 2, "min" :  3, "max" : 6}, "weight" : 3},
+				{"data" : {"name" : "twilightforest:steeleaf_ingot", "min" :  3, "max" : 10}, "weight" : 3},
+				{"data" : {"name" : "enderio:item_alloy_ingot", "min" :  1, "max" : 5}, "weight" : 4},
+				{"data" : {"name" : "enderio:item_alloy_ingot", "meta": 3, "min" :  1, "max" : 5}, "weight" : 4},
+				{"data" : {"name" : "enderio:item_alloy_ingot", "meta": 5, "min" :  1, "max" : 5}, "weight" : 4},
+				{"data" : {"name" : "enderio:item_alloy_ingot", "meta": 7, "min" :  1, "max" : 5}, "weight" : 4},
+				{"data" : {"name" : "nuclearcraft:part", "min" : 2, "max" : 5}, "weight" : 5},
+				{"data" : {"name" : "thaumcraft:loot_bag", "min" :  3, "max" :  5}, "weight" : 6}
+			],
+			"each" : false,
+			"quantity" : 4
+		}
+
+	]
+}
